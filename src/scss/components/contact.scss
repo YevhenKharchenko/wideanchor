@@ -1,0 +1,112 @@
+.contact-section {
+  background: #fff;
+
+  @include media(desktop) {
+  }
+}
+
+.contact-bg-wrapper {
+  padding-top: 56px;
+  padding-bottom: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 120px;
+    max-width: 1440px;
+  }
+}
+
+.contact-container {
+  @include media(desktop) {
+  }
+}
+
+.contact-content-wrapper {
+  box-shadow: 8px 8px 16px 0 rgba(118, 108, 108, 0.16);
+  background: #efefe5;
+  border-radius: 48px;
+  padding: 40px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+  @include media(desktop) {
+    border-radius: 64px;
+    padding: 40px 64px;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 864px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.contact-text-wrapper {
+  @include media(desktop) {
+    width: 100%;
+    max-width: 370px;
+  }
+}
+
+.contact-title {
+  margin-bottom: 8px;
+
+  @include media(desktop) {
+  }
+}
+
+.contact-subtitle {
+  margin-bottom: 8px;
+
+  @include media(desktop) {
+  }
+}
+
+.contact-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #303030;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.contact-link {
+  box-shadow: 8px 8px 16px 0 rgba(167, 167, 167, 0.16);
+  background: #fff;
+  border-radius: 16px;
+  padding: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #192a4d;
+  word-break: break-all;
+  max-width: max-content;
+  cursor: pointer;
+
+  @include media(desktop) {
+    font-size: 20px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 334px;
+  }
+}
+
+.email-icon {
+  min-width: 40px;
+
+  @include media(desktop) {
+  }
+}
