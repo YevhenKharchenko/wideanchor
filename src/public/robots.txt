@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://plainfield.pro/sitemap.xml
+Sitemap: https://wideanchor.pro/sitemap.xml

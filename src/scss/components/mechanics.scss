@@ -1,15 +1,14 @@
-.upgrades-section {
+.mechanics-section {
   @include media(desktop) {
   }
 }
 
-.upgrades-section-wrapper {
+.mechanics-section-wrapper {
   padding-top: 56px;
   padding-bottom: 56px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
 
   @include media(desktop) {
     padding-top: 80px;
@@ -18,93 +17,90 @@
   }
 }
 
-.upgrades-container {
+.mechanics-container {
   @include media(desktop) {
   }
 }
 
-.upgrades-title {
+.mechanics-content-wrapper {
+  background: linear-gradient(360deg, #5e35b1 0%, #8e24aa 100%);
+  border-radius: 64px;
+  padding: 56px 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.mechanics-title {
   text-align: center;
+  color: #fff;
+  margin-bottom: 16px;
 
   @include media(desktop) {
   }
 }
 
-.upgrades-subtitle {
-  text-align: center;
-  color: #6a6a6a;
-  margin-bottom: 4px;
-
-  @include media(desktop) {
-    max-width: 446px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-.upgrades-text {
-  font-family: 'Montserrat', sans-serif;
+.mechanics-text {
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
   text-align: center;
-  color: #6a6a6a;
-  margin-bottom: 40px;
+  color: #fff;
+  margin-bottom: 56px;
 
   @include media(desktop) {
     font-size: 18px;
-    max-width: 446px;
+    max-width: 528px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 64px;
   }
 }
 
-.upgrades-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 32px;
-
-  @include media(desktop) {
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-  }
-}
-
-.upgrades-list-item {
-  box-shadow: 8px 8px 16px 0 rgba(91, 91, 91, 0.12);
-  background: #fff;
-  border-radius: 24px;
-  padding: 32px 16px;
-  border-radius: 24px;
-  width: 100%;
-  max-width: 343px;
+.mechanics-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
 
   @include media(desktop) {
-    max-width: 248px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 32px;
   }
 }
 
-.upgrades-img {
+.mechanics-list-item {
+  background: #fff;
+  border-radius: 36px;
+  padding: 24px 24px 40px;
+  width: 100%;
+  max-width: 247px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  @include media(desktop) {
+    max-width: 272px;
+  }
+}
+
+.mechanics-img {
   @include media(desktop) {
   }
 }
 
-.upgrades-item-text {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
+.mechanics-item-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.4;
   text-align: center;
-  color: #303030;
+  color: #222;
 
   @include media(desktop) {
-    font-size: 20px;
+    font-size: 18px;
   }
 }

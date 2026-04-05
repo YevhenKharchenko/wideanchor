@@ -1,5 +1,5 @@
 .policy-section {
-  background: #f9f8f4;
+  background: #fff8e1;
   padding-top: 112px;
   padding-bottom: 60px;
 
@@ -10,39 +10,38 @@
 }
 
 .policy-main-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 32px;
-  line-height: 1.4;
-  text-transform: uppercase;
+  line-height: 1.12;
   text-align: center;
-  color: #303030;
+  color: #373737;
   margin-bottom: 40px;
 
   @include media(desktop) {
-    font-size: 42px;
+    font-size: 52px;
   }
 }
 
 .policy-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.4;
-  color: #303030;
+  color: #373737;
   margin-bottom: 16px;
 
   @include media(desktop) {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
 .policy-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
-  color: #303030;
+  color: #373737;
 
   &:not(:last-child) {
     margin-bottom: 16px;
@@ -59,11 +58,11 @@
 }
 
 .policy-item {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
-  color: #303030;
+  color: #373737;
   margin-bottom: 8px;
 
   &:last-child {
@@ -76,10 +75,10 @@
 }
 
 .policy-span {
-  color: #01f;
+  color: #0040ff;
 }
 
 .policy-link {
-  color: #01f;
+  color: #0040ff;
   word-wrap: break-word;
 }
